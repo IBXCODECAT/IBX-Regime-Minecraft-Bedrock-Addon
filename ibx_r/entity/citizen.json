@@ -12,8 +12,7 @@
         },
         "render_controllers": [ "controller.render.citizen" ],
         "spawn_egg": {
-          "texture": "spawn_egg",
-          "texture_index": 18
+          "texture": "citizen_spawn_egg"
         }
       }
     }

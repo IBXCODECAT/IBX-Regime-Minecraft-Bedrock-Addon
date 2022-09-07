@@ -1,0 +1,10 @@
+{
+    "resource_pack_name" : "pack.name",
+    "texture_name": "atlas.items",
+    "texture_data" : {
+       "citizen_spawn_egg" : {
+          "textures" : "textures/items/citizen_spawn_egg"
+       }
+    }
+}
+ 
