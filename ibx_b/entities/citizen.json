@@ -40,8 +40,8 @@
 
       "minecraft:health":
       {
-        "max": 5,
-        "value": 5 
+        "max": 1,
+        "value": 1 
       },
 
       "minecraft:movement":
