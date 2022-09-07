@@ -1,0 +1,56 @@
+{
+    "format_version": "1.19.20",
+    "minecraft:entity":
+    {
+      "description":
+      {
+        "identifier": "ibx:soldier",
+        "is_spawnable": true,
+        "is_summonable": true,
+        "is_experimental": false
+      },
+  
+      "components": 
+      {
+        "minecraft:persistant": {},
+        "minecraft:physics": {},
+        "minecraft:conditional_bandwidth_optimization": {},
+  
+        "minecraft:type_family":
+        {
+            "family": [ "npc", "mob" ]
+        },
+        "minecraft:collision_box":
+        {
+            "width": 0.6,
+            "height": 2
+        },
+  
+        "minecraft:health":
+        {
+          "max": 50,
+          "value": 50 
+        },
+  
+        "minecraft:movement":
+        {
+          "value": 2
+        },
+        
+        "minecraft:navigation.walk": 
+        {
+          "is_amphibious": true,
+          "can_path_over_water": true,
+          "can_pass_doors": true,
+          "can_open_doors": true,
+          "can_walk": true,
+          "avoid_water": true
+        },
+  
+        "minecraft:annotation.open_door": {},
+        "minecraft:movement.basic": {},
+        "minecraft:jump.static": {},
+        "minecraft:can_climb": {}
+      }
+    }
+  }

@@ -3,3 +3,6 @@ pack.description=A dedicated resource pack for the IBX Regime
 
 item.spawn_egg.entity.ibx:citizen.name=Spawn Citizen
 entity.ibx:citizen.name=Citizen
+
+item.spawn_egg.entity.ibx:soldier.name=Spawn Soldier
+entity.ibx:soldier.name=Soldier

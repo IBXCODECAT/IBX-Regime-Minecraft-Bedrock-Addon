@@ -40,13 +40,13 @@
 
       "minecraft:health":
       {
-        "max": 20,
-        "value": 20 
+        "max": 5,
+        "value": 5 
       },
 
       "minecraft:movement":
       {
-        "value": 0.5
+        "value": 0.2
       },
       
       "minecraft:navigation.walk": 
@@ -65,7 +65,7 @@
       "minecraft:can_climb": {},
 
       "minecraft:behavior.random_stroll": {
-        "priority": 11,
+        "priority": 51,
         "speed_multiplier": 0.6
       },
 
@@ -101,6 +101,10 @@
             "sprint_speed_multiplier": 0.6
           }
         ]
+      },
+      "minecraft:behavior.move_to_random_block": 
+      {
+        "block_distance": 16.0
       }
     }
   }

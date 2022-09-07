@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "ibx:soldier",
+        "materials": { "default": "npc" },
+        "textures": {
+          "default": "textures/entity/soldier"
+        },
+        "geometry": {
+          "default": "geometry.soldier"
+        },
+        "render_controllers": [ "controller.render.soldier" ],
+        "spawn_egg": {
+          "texture": "citizen_spawn_egg"
+        }
+      }
+    }
+  }
+  
