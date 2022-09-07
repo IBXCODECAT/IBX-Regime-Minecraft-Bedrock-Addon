@@ -1,0 +1,21 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "ibx:citizen",
+        "materials": { "default": "npc" },
+        "textures": {
+          "default": "textures/entity/citizen"
+        },
+        "geometry": {
+          "default": "geometry.citizen"
+        },
+        "render_controllers": [ "controller.render.citizen" ],
+        "spawn_egg": {
+          "texture": "spawn_egg",
+          "texture_index": 18
+        }
+      }
+    }
+  }
+  
