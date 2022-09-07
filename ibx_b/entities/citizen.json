@@ -25,18 +25,18 @@
             "width": 0.6,
             "height": 2
         },
-        
-        "minecraft:behaviour.look_at_player":
+
+        "minecraft:behavior.look_at_player":
         {
           "probability": 0.3
         },
         
-        "minecraft:behaviour.look_at_entity":
+        "minecraft:behavior.look_at_entity":
         {
           "probability": 0.3
         },
 
-        "minecraft:behaviour.random_look_around": {},
+        "minecraft:behavior.random_look_around": {},
 
         "minecraft:health":
         {
