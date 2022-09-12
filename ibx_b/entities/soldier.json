@@ -18,7 +18,7 @@
   
         "minecraft:type_family":
         {
-            "family": [ "guard" ]
+            "family": [ "soldier" ]
         },
         "minecraft:collision_box":
         {
@@ -71,7 +71,7 @@
               "filters": {
                 "test": "is_family",
                 "subject": "other",
-                "value": "npc"
+                "value": "player"
               },
               "max_dist": 20
             }
